@@ -21,6 +21,7 @@ public class MedianCounterOptimized
 
         public VirtualSortedList() { }
 
+        // TODO: Refactoring wouldn't hurt...
         public void Add(double value)
         {
             Count++;
