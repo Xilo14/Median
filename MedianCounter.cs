@@ -12,7 +12,7 @@ public class MedianCounter
             int index = sortedSet.Count / 2;
             // 5 7 23 54  - nums
             // 0 1 2  3   - indexes
-            if (sortedSet.Count % 2 == 0)
+            if (sortedSet.Count.IsOdd())
                 yield return (sortedSet.ElementAt(index) + sortedSet.ElementAt(index - 1)) / 2;
             // 5 7 23 54 121 - nums
             // 0 1 2  3  4   - indexes
